@@ -6,6 +6,8 @@ public class Calculator {
 		
 	}
 	
+	
+	
 	/**
 	 * Metodo para dividir dos enteros y obtener solo la parte entera de la division
 	 * @param dividend dividendo de la operacion
