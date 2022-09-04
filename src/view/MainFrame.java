@@ -9,6 +9,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 
+
 public class MainFrame extends JFrame{
 
 	/**
@@ -18,6 +19,7 @@ public class MainFrame extends JFrame{
 	private JTextField numberOne;
 	private JTextField numberTwo;
 	private JTextField result;
+	
 
 
 	/**
