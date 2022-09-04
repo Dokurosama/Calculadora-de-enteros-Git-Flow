@@ -44,7 +44,7 @@ public class Calculator {
 	 * @param numberTwo numero dos a sumar
 	 * @return suma de dos numeros enteros
 	 * */
-	public int sum(int numberOne,int numberTwo) {
+	public int addition(int numberOne,int numberTwo) {
 		return numberOne + numberTwo;
 	}
 	
@@ -55,7 +55,7 @@ public class Calculator {
 	 * @return resta de dos numeros enteros
 	 * */
 	
-	public int rest(int numberOne,int numberTwo) {
+	public int subtraction(int numberOne,int numberTwo) {
 		return numberOne - numberTwo;
 	}
 
