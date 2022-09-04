@@ -18,7 +18,8 @@ public class Presenter implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		if(e.getActionCommand().equals("suma")) {
+    try{
+        if(e.getActionCommand().equals("suma")) {
 			mainFrame.setResult("");
 			mainFrame.setResult(String.valueOf(calculator.addition(Integer.parseInt(mainFrame.getNumberOne()),Integer.parseInt( mainFrame.getNumberTwo()))));
 		}else if(e.getActionCommand().equals("resta")) {
@@ -38,6 +39,11 @@ public class Presenter implements ActionListener{
 			mainFrame.setResult(String.valueOf(calculator.module(Integer.parseInt(mainFrame.getNumberOne()),Integer.parseInt( mainFrame.getNumberTwo()))));
 			
 		}
+
+    }catch(NumberFormatException n){
+
+    }
+	
 		
 	}
 	
